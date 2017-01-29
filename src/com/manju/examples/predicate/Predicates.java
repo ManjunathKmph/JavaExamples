@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-public class PredicateDemo {
+public class Predicates {
 	
 	public <T> List<T> testPredicate01(Predicate<T> p, List<T> list) {
 		final List<T> returnedList = new ArrayList<>();
